@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+body {
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  box-sizing: border-box;
+}
+
+ .img{
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  background-image: url(img/bijoux1.jpg);
+  background-size: cover;
+  background-position: center;
+  image-orientation: rotate(90deg);
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;  
+  align-items: center;
+}
+
+.cta-button {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  margin: 25px;
+}
+
+.logo{
+  font-size: 75px;
+  letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px  25px;
+}
+
+nav ul li a{ 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+ }
+nav ul li a:hover{
+  color: black;
+  transition: .4s;
+}
+
+.btn{
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: black;
+  transition: .4s;
+}
+
+h4{
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-item {
+  text-align: center;
+  width: 45%;
+}
+
+.image-item img {
+  width: 98%;
+}
+
+.image-item h3 {
+  margin-top: 10px;
+}
+
+.new{
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+section {
+  width: 50%;
+  text-align: center;
+}
+
+.legal{
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
